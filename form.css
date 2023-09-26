@@ -1,0 +1,68 @@
+body{
+    background-color: teal;
+}
+*{
+    box-sizing: border-box;
+    
+}
+h1{
+    font-style: oblique;
+    color: teal;
+}
+p{
+    font-size: larger;
+    font-style: italic;
+    color: rgb(7, 7, 7);
+    
+}
+label{
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+input{
+    border-radius: 20px;
+    
+}
+.container{
+    margin: auto;
+    width: 30%;
+    padding: 16px;
+    text-align: center;
+    background-color: #ddd;
+    box-shadow: 20px 20px 20px 0px rgba(0,0,0,0.7);
+}
+input[type='text'],
+input[type='password']
+ {
+        
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: whitesmoke;
+
+}
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='phonenumber']:focus,
+input[type='email']:focus{
+    background-color: #ddd;
+     /* outline: teal; */ 
+    /* border-color: black;  */
+}
+.registerbtn{
+    background-color: teal;
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: auto;
+    opacity: 0.8;
+    
+}
+.registerbtn:hover{
+    opacity: 1;
+}
